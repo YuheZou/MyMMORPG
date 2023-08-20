@@ -1,0 +1,21 @@
+2023-08-07 14:25:35,422 [ 1] INFO  Unity: LoadingManager start
+2023-08-07 14:25:45,652 [ 1] INFO  Unity: ConnectToServer() Start 
+2023-08-07 14:25:45,655 [ 1] INFO  Unity: DoConnect
+2023-08-07 14:25:45,656 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2023-08-07 14:25:45,658 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+
+2023-08-07 14:25:45,660 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2023-08-07 14:25:46,807 [ 1] INFO  Unity: OnLogin:Failed [用户不存在]
+2023-08-07 14:26:13,043 [ 1] INFO  Unity: OnLogin:Failed [用户不存在]
+2023-08-07 14:26:14,720 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2023-08-07 14:26:14,720 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+UnityEngine.Debug:LogWarning(Object)
+Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
+Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:175)
+
+2023-08-07 14:26:14,721 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2023-08-07 14:26:14,722 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+UnityEngine.Debug:LogWarning(Object)
+Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
+Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:175)
+
